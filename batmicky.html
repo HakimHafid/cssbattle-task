@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="batmicky">
+      <div class="batmicky_body"></div>
+      <div class="back_head"></div>
+      <div class="head"></div>
+      <div class="right_ear"></div>
+      <div class="left_ear"></div>
+      <div class="right_wing_ontop"></div>
+      <div class="right_wing_onbottom"></div>
+      <div class="left_wing_ontop"></div>
+      <div class="left_wing_onbottom"></div>
+    </div>
+    <style>
+      .batmicky {
+        margin-top: -10px;
+        margin-left: -10px;
+        width: 410px;
+        height: 310px;
+        border-radius: 5px;
+        background-color: #191919;
+        overflow: hidden;
+      }
+      .batmicky_body {
+        position: absolute;
+        width: 270px;
+        height: 90px;
+        background-color: #f2ad43;
+        margin-top: 102px;
+        margin-left: 55px;
+      }
+      .back_head {
+        position: absolute;
+        width: 80px;
+        height: 50px;
+        margin-top: 82px;
+        margin-left: 162px;
+        border-radius: 10px;
+        background-color: #191919;
+      }
+      .head {
+        position: absolute;
+        width: 20px;
+        height: 25px;
+        background-color: #f2ad43;
+        margin-top: 112px;
+        margin-left: 192px;
+        border-radius: 5px;
+      }
+      .right_ear {
+        position: absolute;
+        background-color: #f2ad43;
+        width: 10px;
+        height: 10px;
+        margin-top: 107px;
+        margin-left: 187px;
+        border-radius: 10px;
+      }
+      .left_ear {
+        position: absolute;
+        background-color: #f2ad43;
+        width: 10px;
+        height: 10px;
+        margin-top: 107px;
+        margin-left: 207px;
+        border-radius: 5px;
+      }
+      .right_wing_ontop {
+        position: absolute;
+        background-color: #191919;
+        width: 105px;
+        height: 150px;
+        margin-top: 75px;
+        margin-left: -2px;
+        border-radius: 500px;
+        transform: rotate(105deg);
+      }
+      .right_wing_onbottom {
+        position: relative;
+        background-color: #191919;
+        width: 170px;
+        height: 190px;
+        margin-top: 165px;
+        margin-left: 66px;
+        border-radius: 150px;
+        transform: rotate(120deg);
+        overflow: hidden;
+      }
+      .left_wing_ontop {
+        position: absolute;
+        background-color: #191919;
+        width: 105px;
+        height: 125px;
+        margin-top: -267px;
+        margin-left: 295px;
+        border-radius: 100px;
+        transform: rotate(-100deg);
+        z-index: 0;
+      }
+      .left_wing_onbottom {
+        position: relative;
+        background-color: #191919;
+        width: 170px;
+        height: 190px;
+        margin-top: -191px;
+        margin-left: 172px;
+        border-radius: 150px;
+        transform: rotate(-120deg);
+        overflow: hidden;
+        z-index: 3;
+      }
+    </style>
+  </body>
+</html>
